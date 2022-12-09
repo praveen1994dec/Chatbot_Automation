@@ -1,0 +1,91 @@
+{
+  "name": "hubot-slack",
+  "version": "4.10.0",
+  "description": "A Slack adapter for hubot",
+  "main": "./slack",
+  "scripts": {
+    "test": "npm run mocha && istanbul report text-summary lcov",
+    "codecov": "codecov",
+    "mocha": "mocha --require coffeescript/register --require coffee-coverage/register-istanbul --reporter spec test/*.coffee"
+  },
+  "keywords": [
+    "hubot",
+    "tinyspeck",
+    "adapter",
+    "slack"
+  ],
+  "author": "Slack Technologies, LLC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/slackapi/hubot-slack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/slackapi/hubot-slack/issues"
+  },
+  "dependencies": {
+    "@slack/client": "3.16.1-sec.2",
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.10"
+  },
+  "peerDependencies": {
+    "hubot": ">= 2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "codecov": "^3.2.0",
+    "coffee-coverage": "^2.0.0",
+    "coffeescript": "^1.12.7",
+    "hubot": ">= 2.19.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^4.1.0",
+    "mockery": "^2.1.0",
+    "should": "^8.0.0"
+  },
+  "engines": {
+    "node": ">= 0.12",
+    "npm": ">= 2.0.0"
+  },
+  "contributors": [
+    {
+      "name": "Myles Grant",
+      "email": "myles@tinyspeck.com"
+    },
+    {
+      "name": "Evan Solomon"
+    },
+    {
+      "name": "Jon Dalberg"
+    },
+    {
+      "name": "Patrick Connolly"
+    },
+    {
+      "name": "Chip Hayner",
+      "email": "chayner@centresource.com"
+    },
+    {
+      "name": "Eric Lindvall",
+      "email": "eric@papertrailapp.com"
+    },
+    {
+      "email": "don@slack-corp.com",
+      "name": "D.E. Goodman-Wilson"
+    },
+    {
+      "email": "jagan@slack-corp.com",
+      "name": "John Agan"
+    },
+    {
+      "email": "aoberoi@gmail.com",
+      "name": "Ankur Oberoi"
+    },
+    {
+      "email": "sdewael@slack-corp.com",
+      "name": "Shane DeWael"
+    },
+    {
+      "name": "Siôn le Roux"
+    }
+  ]
+}

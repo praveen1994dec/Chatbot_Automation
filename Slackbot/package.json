@@ -1,0 +1,30 @@
+{
+  "name": "singam_bot",
+  "version": "0.0.0",
+  "private": true,
+  "author": "praveensingam1994@gmail.com",
+  "description": "Slack bot",
+  "dependencies": {
+    "@slack/client": "^5.0.2",
+    "date-utils": "^1.2.21",
+    "githubot": "^1.0.1",
+    "hubot": "^3.3.2",
+    "hubot-diagnostics": "^1.0.0",
+    "hubot-emoji": "^1.0.1",
+    "hubot-google-images": "^0.2.7",
+    "hubot-google-translate": "^0.2.1",
+    "hubot-help": "^1.0.1",
+    "hubot-heroku-keepalive": "^1.0.3",
+    "hubot-maps": "^0.0.3",
+    "hubot-pugme": "^0.1.1",
+    "hubot-redis-brain": "^1.0.0",
+    "hubot-rules": "^1.0.0",
+    "hubot-scripts": "^2.17.2",
+    "hubot-shipit": "^0.2.1",
+    "hubot-slack": "^4.10.0",
+    "hubot-slack-reactions": "^0.3.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
