@@ -32,3 +32,8 @@ Step 7 - yo hubot
 
 Add your values --> EMAIL ID / ADAPTER -> slack / Botname/desc - your bot name in salck 
 
+Step 8 - Hit the below command to start your bot
+
+HUBOT_SLACK_TOKEN= ./bin/hubot  --adapter slack
+
+
