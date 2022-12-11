@@ -26,3 +26,9 @@ Step 4 - Install node in your laptop
 
 Step 5 - Execute the commands from slides 
 
+Step 6 - npm install -g yo generator-hubot
+
+Step 7 - yo hubot 
+
+Add your values --> EMAIL ID / ADAPTER -> slack / Botname/desc - your bot name in salck 
+
